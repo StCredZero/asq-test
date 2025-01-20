@@ -1,0 +1,4 @@
+//asq_match code.go:5:1
+y.Foo().String()
+//asq_match code.go:6:1
+z.Foo().String()
