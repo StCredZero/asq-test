@@ -1,12 +1,13 @@
 package test0001
 
-type thing struct{}
+type thingy struct{}
 
-func (x thing) msg1() thing { return x }
-func (x thing) msg2() thing { return x }
+func (x thingy) msg1() thingy { return x }
+func (x thingy) msg2() thingy { return x }
+func (x thingy) Foo() thingy  { return x }
 
-func asq_query(x thing) {
+func asq_query(x thingy) {
 	//asq_start
-	/***/x./***/msg1().String()
+	/***/ x. /***/ msg1().String()
 	//asq_end
 }
